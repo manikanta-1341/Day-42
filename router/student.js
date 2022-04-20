@@ -8,5 +8,5 @@ router.put('/modify/:id',student.updateStudent);
 router.delete('/delete/:id',student.deleteStudent);
 router.patch("/:id/assign/mentor",student.assignMentor);
 router.get("/without/mentor",student.withoutMentor);
-
+router.patch("/:id/deleteMentor",student.deleteMentor)
 module.exports = router;

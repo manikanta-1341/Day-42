@@ -1,5 +1,5 @@
 const express = require('express')
-const getStudents = require('./router/routing');
+const getStudents = require('./router/student');
 const getMentors = require('./router/mentor');
 const db = require('./shared/connect')
 const app = express()
